@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+	<VerticalLayout width="600" height="420" bkimage="uninstall_bg1.png" >
+		<VerticalLayout height="350" />
+		<VerticalLayout height="70"  >	
+			<HorizontalLayout padding="0,20,0,0" height="30" >
+				<Control />     
+				<Button name="btnUnInstall" width="85" text="卸载" textcolor="#FFA3A19F" normalimage="file='button3.png' source='0,1,50,35' corner='3,3,3,3'" hotimage="file='button3.png' source='51,1,101,35' corner='3,3,3,3'" pushedimage="file='button3.png' source='102,1,152,35' corner='3,3,3,3' "/>
+				<Control width="20" />
+				<Button name="btnClose"  width="85" text="取消" textcolor="#FFFFFFFF" normalimage="file='button.png' source='0,1,50,35' corner='3,3,3,3'" hotimage="file='button.png' source='51,1,101,35' corner='3,3,3,3'" pushedimage="file='button.png' source='102,1,152,35' corner='3,3,3,3' " />
+				<Control width="30" />
+			</HorizontalLayout>
+		</VerticalLayout>
+	</VerticalLayout>
+</Windows>

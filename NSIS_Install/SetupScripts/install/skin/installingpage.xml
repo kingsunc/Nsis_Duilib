@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+	<!-- 进度 -->
+	<VerticalLayout >
+		<VerticalLayout width="600" height="350" >
+			<ImageShow images="bg1.png bg2.png" imagecount="4" loop="true" width="600" height="350" />
+		</VerticalLayout>
+		<VerticalLayout height="70" bkimage="file='bgbottom.png' corner='10,0,10,10'" >
+			<HorizontalLayout height="10" />
+			<HorizontalLayout height="25" padding="40,0,40,0">
+				 <Label name="lblInstalling" text="正在安装..." align="left" textcolor="0xFF000000" width="120" />
+				 <Container />
+				 <Label name="lblPercent" text="0%" align="right" textcolor="0xFF000000" width="120" />
+			</HorizontalLayout>
+			<Slider name="slrProgress" padding="40,0,40,0" height="18" width="520" mouse="false" bkimage="file='process.png' source='1,1,10,10' corner='2,2,2,2'" foreimage="file='process.png' source='11,1,20,10' corner='2,2,2,2'" thumbsize="0,0" />
+		</VerticalLayout>	
+	</VerticalLayout >
+</Windows>

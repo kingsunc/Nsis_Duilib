@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+	<!-- 安装目录 -->
+	<VerticalLayout>
+		<VerticalLayout width="600" height="300" bkimage="file='bkg_top.png'">
+		</VerticalLayout>
+		<VerticalLayout bkimage="file='bgbottom.png' corner='10,0,10,10'" >
+			<HorizontalLayout height="60" padding="0,30,0,0" >
+				<HorizontalLayout />
+				<Button name="btnInstall" width="160" height="30" font="2" align="center" valign="vcenter" textcolor="#FFFFFFFF" text="立即安装" normalimage="file='button.png' source='0,1,50,35' corner='3,3,3,3'" hotimage="file='button.png' source='51,1,101,35' corner='3,3,3,3'" pushedimage="file='button.png' source='102,1,152,35' corner='3,3,3,3'" disabledimage="file='button.png' source='153,1,203,35' corner='3,3,3,3' "  />
+				<HorizontalLayout />
+			</HorizontalLayout>
+			<VerticalLayout height="60" name="moreconfiginfo" visible="false">
+				<HorizontalLayout width="380" height="26" padding="110,0,0,0" >
+					<RichEdit name="editDir" text="" textcolor="0xFF000000" inset="5,4,2,2" bkcolor="#ffffffff" autohscroll="false" bordervisible="true"  bordersize="1" bordercolor="0xFFD1D1D1" focusbordercolor="0xFFD1D1D1" wantreturn="false" wantctrlreturn="false" multiline="false" width="300" />
+					<Control width="6" />
+					<Button name="btnSelectDir" width="68" height="26" text="浏览" textcolor="#FFFFFFFF" valign="vcenter" align="center" normalimage="file='button1.png' source='0,1,50,35' corner='3,3,3,3'" hotimage="file='button1.png' source='51,1,101,35' corner='3,3,3,3'" pushedimage="file='button1.png' source='102,1,152,35' corner='3,3,3,3' " />					
+				</HorizontalLayout>
+				<HorizontalLayout />
+			</VerticalLayout>
+			<HorizontalLayout />
+			<HorizontalLayout height="25" >
+				<HorizontalLayout width="15" />
+				<CheckBox name="chkAgree" width="112" text="我已经阅读并同意" textcolor="#FF000000" selected="true" valign="vcenter" align="left" textpadding="16,2,0,0" normalimage="file='check.png' source='1,1,17,17' dest='0,4,13,17' corner='2,2,2,2'" hotimage="file='check.png' source='18,1,34,17' dest='0,4,13,17' corner='2,2,2,2'" pushedimage="file='check.png' source='35,1,51,17' dest='0,4,13,17' corner='2,2,2,2'" disabledimage="file='check.png' source='52,1,68,17' dest='0,4,13,17' corner='5,5,5,5" selectedimage="file='check.png' source='1,18,17,34' dest='0,4,13,17' corner='2,2,2,2'" selectedhotimage="file='check.png' source='18,18,34,34' dest='0,4,13,17' corner='2,2,2,2'" selectedpushedimage="file='check.png' source='35,18,51,34' dest='0,4,13,17' corner='2,2,2,2'" selecteddisabledimage="file='check.png'  source='52,18,68,34' dest='0,4,13,17'  corner='5,5,5,5'" />
+				<Button name="btnAgreement" width="140"  text="《XXX许可协议》" textpadding="0,2,0,0" textcolor="0xFF2786e4" align="left" />
+				<HorizontalLayout />
+				<Button name="btnShowMore"  normalimage="file='arrow_down.png' source='1,1,12,12' dest='4,5,15,16'" hotimage="file='arrow_down.png' source='13,1,24,12' dest='4,5,15,16'" pushedimage="file='arrow_down.png' source='25,1,36,12' dest='4,5,15,16'" width="90" text="自定义安装" textpadding="20,2,0,0" textcolor="0xFF2786e4" align="left"/>
+				<Button name="btnHideMore" visible="false" normalimage="file='arrow_up.png' source='1,1,12,12' dest='4,5,15,16'" hotimage="file='arrow_up.png' source='13,1,24,12' dest='4,5,15,16'" pushedimage="file='arrow_up.png' source='25,1,36,12' dest='4,5,15,16'"  width="90" text="自定义安装" textpadding="20,2,0,0" textcolor="0xFF2786e4" align="left" />
+				<HorizontalLayout width="15" />
+			</HorizontalLayout>
+			<HorizontalLayout height="10" />
+		</VerticalLayout>
+		<Include source="licensepage.xml" />
+	</VerticalLayout>
+</Windows>

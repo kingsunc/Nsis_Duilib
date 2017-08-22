@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+<!-- 进度 -->
+	<VerticalLayout width="600" height="420" bkimage="uninstall_bg2.png" >
+		<VerticalLayout height="350" />
+		<VerticalLayout height="70"  >
+			<HorizontalLayout height="10" />
+			<HorizontalLayout height="25" padding="40,0,40,0">
+				 <Label name="lblInstalling" text="卸载进度" font="0" align="left" textcolor="0xFF000000" width="120" />
+				<!--  <Container />
+				 <Label name="lblPercent" text="" align="right" textcolor="0xFF000000" width="120" /> -->
+			</HorizontalLayout>
+			<Slider name="slrUnInstProgress" padding="40,0,40,0" height="16" width="520" mouse="false" bkimage="file='process.png' source='1,1,10,10' corner='2,2,2,2'" foreimage="file='process.png' source='11,1,20,10' corner='2,2,2,2'" thumbsize="0,0" />
+		</VerticalLayout>
+	</VerticalLayout>	
+</Windows>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="320,150" roundcorner="3,3" caption="0,0,0,150" showshadow="true" shadowimage="wnd_shadow.png" shadowsize="7" shadowcorner="7,7,7,7" >
+	<Font id="0" name="微软雅黑" size="12" bold="false" italic="false" />
+    <Font id="1" name="微软雅黑" size="12" bold="true"  italic="false" />
+	
+    <VerticalLayout width="320" height="150" bkimage="file='bkg_mesagebox.png' corner='0,25,0,50'" >
+		<HorizontalLayout height="25" >
+			<Text  padding="5,5,0,0" text="提示" width="150" height="24" font="1" align="left" textcolor="#FFFFFF" />
+			<HorizontalLayout />
+			<Button name="btnClose" width="25" height="25" normalimage="file='titlebutton.png' source='1,1,26,26'"  hotimage="file='titlebutton.png' source='27,1,52,26'"  pushedimage="file='titlebutton.png' source='53,1,78,26'"  disabledimage="file='titlebutton.png' source='79,1,104,26'"  tooltip="关闭"	 keyboard="false" />
+        </HorizontalLayout>
+		<HorizontalLayout >
+			<Label padding="20,25,0,0"  name="lab_icon" width="32" height="32" bkimage="mb_iconwaring.png" />
+			<Text  padding="20,25,0,20" name="lblMsg" height="32" font="0" align="left" valign="vcenter" textcolor="#FF353535" />
+		</HorizontalLayout>	
+		<HorizontalLayout height="32" padding="0,0,15,0" childpadding="15" >
+			<HorizontalLayout />
+			<Button name="btnOK" 	 width="65" height="24" font="0" textcolor="#FFFFFFFF" text="确定" normalimage="file='button1.png' source='0,1,50,35' corner='3,3,3,3'" hotimage="file='button1.png' source='51,1,101,35' corner='3,3,3,3'" pushedimage="file='button1.png' source='102,1,152,35' corner='3,3,3,3' "  />
+			<Button name="btnCancel" width="65" height="24" font="0" textcolor="#FFFFFFFF" text="取消" normalimage="file='button1.png' source='0,1,50,35' corner='3,3,3,3'" hotimage="file='button1.png' source='51,1,101,35' corner='3,3,3,3'" pushedimage="file='button1.png' source='102,1,152,35' corner='3,3,3,3' "  />
+        </HorizontalLayout>
+	</VerticalLayout>
+</Window>

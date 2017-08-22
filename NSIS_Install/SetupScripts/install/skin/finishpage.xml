@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+<!-- 完成 -->
+ <VerticalLayout >
+    <VerticalLayout width="600" height="300" bkimage="file='finish_top.png'">
+	</VerticalLayout>
+	<VerticalLayout height="120" bkimage="file='bgbottom.png' corner='10,0,10,10'" >	
+		<HorizontalLayout height="23" padding="0,10,0,0" >
+			<HorizontalLayout />
+			<CheckBox name="chkDeskShot" width="120"  text="生成桌面快捷方式" textcolor="#FF000000" selected="true" valign="vcenter" align="left" textpadding="16,2,0,0" normalimage="file='check.png' source='1,1,17,17' dest='0,4,13,17' corner='2,2,2,2'" hotimage="file='check.png' source='18,1,34,17' dest='0,4,13,17' corner='2,2,2,2'" pushedimage="file='check.png' source='35,1,51,17' dest='0,4,13,17' corner='2,2,2,2'" disabledimage="file='check.png' source='52,1,68,17' dest='0,6,12,18' corner='5,5,5,5" selectedimage="file='check.png' source='1,18,17,34' dest='0,4,13,17' corner='2,2,2,2'" selectedhotimage="file='check.png' source='18,18,34,34' dest='0,4,13,17' corner='2,2,2,2'" selectedpushedimage="file='check.png' source='35,18,51,34' dest='0,4,13,17' corner='2,2,2,2'" selecteddisabledimage="file='check.png'  source='52,18,68,34' dest='0,6,12,18'  corner='5,5,5,5'" keyboard="false" />
+			<Control width="30"/>
+			<CheckBox name="chkStartMenu" width="120"  text="添加到快速启动栏" textcolor="#FF000000" selected="true" valign="vcenter" align="left" textpadding="16,2,0,0" normalimage="file='check.png' source='1,1,17,17' dest='0,4,13,17' corner='2,2,2,2'" hotimage="file='check.png' source='18,1,34,17' dest='0,4,13,17' corner='2,2,2,2'" pushedimage="file='check.png' source='35,1,51,17' dest='0,4,13,17' corner='2,2,2,2'" disabledimage="file='check.png' source='52,1,68,17' dest='0,6,12,18' corner='5,5,5,5" selectedimage="file='check.png' source='1,18,17,34' dest='0,4,13,17' corner='2,2,2,2'" selectedhotimage="file='check.png' source='18,18,34,34' dest='0,4,13,17' corner='2,2,2,2'" selectedpushedimage="file='check.png' source='35,18,51,34' dest='0,4,13,17' corner='2,2,2,2'" selecteddisabledimage="file='check.png'  source='52,18,68,34' dest='0,6,12,18'  corner='5,5,5,5'" keyboard="false" />
+			<!-- <Control width="30"/> -->
+			<CheckBox visible="false" name="chkAutoRun" width="100"  text="开机自动启动" textcolor="#FF000000" selected="false" valign="vcenter" align="left" textpadding="16,2,0,0" normalimage="file='check.png' source='1,1,17,17' dest='0,4,13,17' corner='2,2,2,2'" hotimage="file='check.png' source='18,1,34,17' dest='0,4,13,17' corner='2,2,2,2'" pushedimage="file='check.png' source='35,1,51,17' dest='0,4,13,17' corner='2,2,2,2'" disabledimage="file='check.png' source='52,1,68,17' dest='0,6,12,18' corner='5,5,5,5" selectedimage="file='check.png' source='1,18,17,34' dest='0,4,13,17' corner='2,2,2,2'" selectedhotimage="file='check.png' source='18,18,34,34' dest='0,4,13,17' corner='2,2,2,2'" selectedpushedimage="file='check.png' source='35,18,51,34' dest='0,4,13,17' corner='2,2,2,2'" selecteddisabledimage="file='check.png'  source='52,18,68,34' dest='0,6,12,18'  corner='5,5,5,5'" keyboard="false" />
+			<HorizontalLayout />
+		</HorizontalLayout>
+		<Button name="btnRun" padding="220,30,0,0" width="160" height="30" font="3" textcolor="#FFFFFFFF" text="立即启动" normalimage="file='button.png' source='0,1,50,35' corner='3,3,3,3'" hotimage="file='button.png' source='51,1,101,35' corner='3,3,3,3'" pushedimage="file='button.png' source='102,1,152,35' corner='3,3,3,3' "  />
+	</VerticalLayout>
+ </VerticalLayout>
+</Windows>
